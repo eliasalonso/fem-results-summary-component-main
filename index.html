@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <title>Results summary component</title>
+
+</head>
+
+<body>
+  <div class="row">
+    <main class="results-container">
+      <h1 class="results__title">Your Result</h1>
+      <div class="results__circle">
+        <p class="results__actual-result">76</p>
+        <p class="results__total-result">of 100</p>
+      </div>
+      <p class="results__message">Great</p>
+      <div class="text-container">
+        <p class="results__scored">Your performance exceed 65% of the people conducting the test here!</p>
+      </div>
+    </main>
+    <div class="column">
+      <article class="summary-container">
+        <h2 class="summary__title">Summary</h2>
+        <div class="summary__objects-container">
+          <div class="flex-group-1">
+            <div class="flex-icon">
+              <img src="./assets/images/icon-reaction.svg" alt="">
+              <h3 class="summary__reaction">Reaction</h3>
+            </div>
+            <p class="summary__points-total"><span class="summary__points-obtained">80</span> / 100</p>
+          </div>
+          <div class="flex-group-2">
+            <div class="flex-icon">
+              <img src="./assets/images/icon-memory.svg" alt="">
+              <h3 class="summary__memory">Memory</h3>
+            </div>
+            <p class="summary__points-total"><span class="summary__points-obtained">92</span> / 100</p>
+          </div>
+          <div class="flex-group-3">
+            <div class="flex-icon">
+              <img src="./assets/images/icon-verbal.svg" alt="">
+              <h3 class="summary__verbal">Verbal</h3>
+            </div>
+            <p class="summary__points-total"><span class="summary__points-obtained">61</span> / 100
+            </p>
+          </div>
+          <div class="flex-group-4">
+            <div class="flex-icon">
+              <img src="./assets/images/icon-visual.svg" alt="">
+              <h3 class="summary__visual">Visual</h3>
+            </div>
+            <p class="summary__points-total"><span class="summary__points-obtained">73</span> / 100</p>
+          </div>
+        </div>
+        <footer>
+        <button class="button">Continue</button>
+      </footer>
+      </article>
+    </div>
+  </div>
+</body>
+
+</html>
